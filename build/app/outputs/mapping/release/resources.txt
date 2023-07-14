@@ -1,13 +1,17 @@
 android.content.res.Resources#getIdentifier present: true
 Web content present: false
 Referenced Strings:
+cancel
 exception
 DISMISS
 TextInput.requestAutofill
 app_flutter
-deviceId
+deleteDatabase
 kRepeat
 java.lang.Integer
+deviceId
+music
+PICTURES
 verticalText
 android.util.LongArray
 FlutterSharedPreferences
@@ -18,8 +22,8 @@ GeneratedPluginsRegister
 LEFT
 java.lang.CharSequence
 LANDSCAPE_RIGHT
-givenName
 _handled
+givenName
 androidx.window.layout.WindowInfoTrac...
 ActivityRule
 click
@@ -31,13 +35,14 @@ kotlinx.coroutines.DefaultExecutor
 TextInputClient.updateEditingStateWit...
 registerWith
 SystemSoundType.alert
-REDUCE_MOTION
 kotlin.internal.JRE7PlatformImplement...
+REDUCE_MOTION
 DECREASE
 $splitPairFilters
 PORTRAIT_DOWN
 sidecarAdapter
 libapp.so
+result
 RestorationChannel
 middleInitial
 SystemUiMode.immersiveSticky
@@ -84,10 +89,12 @@ FlutterEngine
 flutter/keyevent
 phoneCountryCode
 telephoneNumberCountryCode
+databaseExists
 deviceState
 decimal
 SystemChrome.setSystemUIOverlayStyle
 TextInput.setEditableSizeAndTransform
+ROOT
 COMPLETING_WAITING_CHILDREN
 enable_state_restoration
 ClassVerificationFailure
@@ -103,8 +110,8 @@ MOVE_CURSOR_BACKWARD_BY_CHARACTER
 FlutterSplashView
 kotlin.collections.List
 IS_OBSCURED
-MOVE_CURSOR_FORWARD_BY_CHARACTER
 label
+MOVE_CURSOR_FORWARD_BY_CHARACTER
 EmbeddingBackend
 message
 scanCode
@@ -117,6 +124,7 @@ TextInputType.emailAddress
 creditCardExpirationDay
 ACTION_ARGUMENT_SET_TEXT_CHARSEQUENCE
 username
+androidThreadCount
 FlutterActivity
 java.lang.Float
 decorate
@@ -144,6 +152,7 @@ splitRule
 resizeUp
 creditCardNumber
 DiscouragedApi
+cmd
 onPostResume
 io.flutter.Entrypoint
 CLIP_RECT
@@ -165,28 +174,33 @@ it.parameterTypes
 mNextServedView
 kotlin.Long
 POLL_FAILED
+com.tekartik.sqflite
 Completing
 java.lang.String
+NOTIFICATIONS
 addressRegion
 TextInput.setClient
 resizeDown
 _resumed
+inTransaction
 TextInputType.multiline
 getChildId
 PRIVATE
 framework
 java.util.concurrent.ForkJoinPool
 LIGHT_IMPACT
+noResult
 DESTROYED
-SystemChrome.setEnabledSystemUIOverlays
-New
 selectionExtent
+New
+SystemChrome.setEnabledSystemUIOverlays
 MouseCursorChannel
 ATOMIC
 kotlin.collections.Collection
 TextInputAction.send
 onStart
 android.widget.CheckBox
+sqlite_error
 buffer
 HapticFeedback.vibrate
 repeatCount
@@ -202,16 +216,17 @@ onUserLeaveHint
 _cur
 CommonPool
 onResume
-java.util.List
 OFFER_SUCCESS
+java.util.List
 hybrid
 UNEXPECTED:
 kotlin.Int
 basic
-collect
 kotlin.Throwable
+collect
 sidecarDisplayFeatures
 parkedWorkersStack
+RINGTONES
 IS_IMAGE
 COMPLETING_ALREADY
 PHONE
@@ -232,8 +247,10 @@ direction
 BITMAP
 windowConfiguration
 newConfig
+rows
 resizeUpRight
 Array
+getDatabasesPath
 flutter/lifecycle
 WindowServer
 TextInputType.number
@@ -244,8 +261,9 @@ getParentNodeId
 RestrictedApi
 accessibility
 getPoolSize
-SystemChrome.setEnabledSystemUIMode
 getAppBounds
+SystemChrome.setEnabledSystemUIMode
+ringtones
 android.widget.HorizontalScrollView
 password
 kotlinx.coroutines.scheduler.keep.ali...
@@ -268,6 +286,7 @@ REMOVE_FROZEN
 POSTURE_FLAT
 kotlin.collections.ListIterator
 oemFeature.bounds
+dev.flutter.pigeon.PathProviderApi.ge...
 dev.flutter.pigeon.SharedPreferencesA...
 CUSTOM_ACTION
 delimiters
@@ -276,6 +295,7 @@ PROTECTED
 STANDARD
 cached_engine_id
 setRemoveOnCancelPolicy
+MUSIC
 newLayoutInfo
 IS_LIVE_REGION
 forbidden
@@ -283,6 +303,7 @@ windowToken
 blockingTasksInBuffer
 onTrimMemory
 getSourceNodeId
+recovered
 streetAddress
 kotlin.Char
 flutter/isolate
@@ -291,12 +312,13 @@ grab
 chars
 dimen
 java.util.ListIterator
+documents
 kotlinx.coroutines.android.AndroidDis...
 DefaultDispatcher
 SplitPlaceholderRule
-source
 ALERT
 kotlin.Double
+source
 onActivityResult
 LocalizationChannel
 view
@@ -309,6 +331,7 @@ addressCity
 primaryActivityName
 includeSubdomains
 overlay
+batch
 creditCardSecurityCode
 parentMetrics
 FULL
@@ -317,8 +340,8 @@ flutter
 phoneNumber
 composingBase
 name
-fields
 DartExecutor
+fields
 getDescriptor
 keymap
 string
@@ -347,9 +370,9 @@ Cancelled
 callbackWrapper
 getPosture
 pair
-enableSuggestions
-DATETIME
 primitiveFqNames.values
+DATETIME
+enableSuggestions
 PASTE
 IS_MULTILINE
 short
@@ -364,10 +387,11 @@ VISIBLE_PASSWORD
 IS_FOCUSABLE
 AppLifecycleState.inactive
 TextInput.clearClient
+UseSparseArrays
 SCROLL_RIGHT
-textCapitalization
 android.widget.ImageView
 android.widget.RadioButton
+textCapitalization
 moduleName
 hybridFallback
 oemFeature
@@ -379,8 +403,9 @@ CPU_ACQUIRED
 ACTION_ARGUMENT_SELECTION_END_INT
 embeddingCallback
 SCROLL_LEFT
-TextInputAction.search
+options
 HapticFeedbackType.heavyImpact
+TextInputAction.search
 windowBackend
 InputConnectionAdaptor
 flutter/platform
@@ -388,16 +413,16 @@ TEXTURE_WITH_HYBRID_FALLBACK
 kotlinx.coroutines.scheduler.core.poo...
 kotlinx.coroutines.scheduler.max.pool...
 double
-newPassword
 POSTURE_HALF_OPENED
+newPassword
 POSTAL_ADDRESS
 smsOTPCode
-SystemChannel
 flutter_deeplinking_enabled
+SystemChannel
 viewFocused
 HEAVY_IMPACT
-kotlin.Short
 light
+kotlin.Short
 dev.flutter.pigeon.SharedPreferencesA...
 bounds
 primaryActivityName.packageName
@@ -408,10 +433,11 @@ BLOCKING
 uninstallDeferredComponent
 java.lang.Throwable
 BOLD_TEXT
+cursorPageSize
 Dispatchers.Unconfined
 WindowInfoTrackerCallbackAdapter.kt
-flags
 $splitsWithActivity
+flags
 SystemSound.play
 onPause
 SystemUiOverlay.bottom
@@ -420,9 +446,9 @@ android.intent.action.RUN
 android.widget.SeekBar
 INITIALIZED
 LAZY
-KeyEventChannel
 android.support.v13.view.inputmethod....
 PlatformViewWrapper
+KeyEventChannel
 producerIndex
 flutter/settings
 addressLocality
@@ -465,9 +491,9 @@ io.flutter.embedding.android.EnableIm...
 _consensus
 SCROLL_UP
 WrongConstant
-CLOSED_EMPTY
-kotlin.collections.Iterator
 dev.flutter.pigeon.SharedPreferencesA...
+kotlin.collections.Iterator
+CLOSED_EMPTY
 job
 TextInputClient.requestExistingInputS...
 setLocale
@@ -476,8 +502,11 @@ TextInput.sendAppPrivateCommand
 TextInputType.phone
 SET_TEXT
 SystemChrome.restoreSystemUIOverlays
+insert
+androidSetLocale
 consumerIndex
 point
+continueOnError
 onCloseHandler
 kotlin.Enum
 _removedRef
@@ -487,7 +516,9 @@ deltas
 kotlin.String.Companion
 uniqueIdentifier
 move
+debug
 SplitRuleResolution
+alarms
 jClass
 TextInput.show
 setPosture
@@ -501,15 +532,16 @@ suggestions
 $splitRule
 getModule
 extent
+java.specification.version
 sidecarCompat
 resizeColumn
-java.specification.version
 plugins
+tooltip
 kotlinx.coroutines.scheduler.blocking...
 kotlin.Cloneable
-tooltip
 IS_FOCUSED
 PlatformViewsController
+path
 ReceiveQueued
 systemStatusBarContrastEnforced
 kotlin.reflect.jvm.internal.Reflectio...
@@ -517,28 +549,32 @@ getSuppressed
 PARKING
 FOLD
 DartMessenger
+databases
 HIGH_CONTRAST
 ON_ANY
 MOVE_CURSOR_BACKWARD_BY_WORD
 removeViewImmediate
-kotlin.Unit
 kotlinx.coroutines.scheduler.resoluti...
+kotlin.Unit
 removeView
 route
 ON_PAUSE
 birthdayDay
-domain
 kotlin.jvm.internal.StringCompanionOb...
+domain
 viewType
 editingValue
 OFFER_FAILED
+getPlatformVersion
 invokeSuspend
 SidecarCompat
+:memory:
 DROP_LATEST
 transparent
 java.
 SystemSoundType.click
 resizeUpDown
+logLevel
 background_mode
 popRoute
 NAMES_ROUTE
@@ -569,6 +605,7 @@ kotlin.Boolean
 _queue
 setSidecarCallback
 Override
+DOWNLOADS
 info
 DORMANT
 HYBRID_ONLY
@@ -576,22 +613,28 @@ image
 getRealSize
 TextInputChannel
 componentName.className
+MOVIES
 Failed
 OPACITY
 NonDisposableHandle
+dev.flutter.pigeon.PathProviderApi.ge...
+PODCASTS
+dev.flutter.pigeon.PathProviderApi.ge...
 SyntheticAccessor
 TextInputType.name
+recoveredInTransaction
 navigation_bar_height
 java.lang.annotation.Annotation
 countryName
 FlutterImageView
-inputAction
 nodeId
+inputAction
 frame
 TERMINATED
 flutter/navigation
 Localization.getStringResource
 extendedAddress
+DOCUMENTS
 primaryActivity
 secondaryActivity
 kotlin.collections.Map
@@ -625,8 +668,9 @@ TEXT
 lastScheduledTask
 clipboard
 birthdayMonth
-autocorrect
+com.tekartik.sqflite.wal_enabled
 inFlightTasks
+autocorrect
 HINGE
 java.lang.Character
 HapticFeedbackType.selectionClick
@@ -634,8 +678,8 @@ endIndex
 context
 $newLayoutInfo
 action
-text
 id
+text
 birthdayYear
 SENTENCES
 isolate_snapshot_data
@@ -648,9 +692,9 @@ _bounds
 PlatformChannel
 it
 params
+announce
 UNDECIDED
 FlutterView
-announce
 PLAIN_TEXT
 TextInputType.address
 getResId
@@ -661,10 +705,12 @@ AccessibilityChannel
 fullStreetAddress
 telephoneNumber
 secondaryActivityStack
+cursorId
 RIGHT
 placeholderIntent
 CancellableContinuation
 mServedView
+androidThreadPriority
 onDestroy
 IS_KEYBOARD_KEY
 personNameSuffix
@@ -677,6 +723,7 @@ resizeLeftRight
 platformBrightness
 splitInfo.secondaryActivityStack
 TextInputAction.done
+queryCursorNext
 android.widget.ScrollView
 kotlin.internal.JRE8PlatformImplement...
 io.flutter.EntrypointUri
@@ -684,8 +731,8 @@ onSaveInstanceState
 mH
 VIRTUAL_DISPLAY_PLATFORM_VIEW
 IS_SLIDER
-newIndent
 loadingUnitId
+newIndent
 resizeUpLeftDownRight
 KeyboardManager
 RESUMED
@@ -718,11 +765,14 @@ TextInputType.visiblePassword
 birthday
 p0
 io.flutter.embedding.android.EnableSk...
+code
 featureBounds
 transformer
 statusBarIconBrightness
-ClickableViewAccessibility
+dcim
 ON_OFF_SWITCH_LABELS
+ClickableViewAccessibility
+sql
 asyncTraceEnd
 transform
 STARTED
@@ -734,8 +784,8 @@ on
 nativeSpellCheckServiceDefined
 baseKey
 vm_snapshot_data
-Clipboard.getData
 currentDisplay
+Clipboard.getData
 longPress
 COROUTINE_SUSPENDED
 Trace
@@ -744,7 +794,9 @@ flutter/textinput
 Completed
 callback
 RESUME_TOKEN
+DCIM
 HAS_TOGGLED_STATE
+PathProviderPlugin
 IS_SELECTED
 TextInput.hide
 createAsync
@@ -752,6 +804,7 @@ primaryActivityStack
 .Companion
 telephoneNumberNational
 character
+dev.flutter.pigeon.PathProviderApi.ge...
 EMAIL_ADDRESS
 java.lang.Long
 metaState
@@ -762,7 +815,10 @@ height
 CUT
 BOTTOM_OVERLAYS
 _decision
+readOnly
+execute
 kotlinx.coroutines.flow.AbstractFlow
+transactionId
 input_method
 oldText
 Clipboard.hasStrings
@@ -774,8 +830,8 @@ kotlin.Function
 RTL
 long
 SystemUiMode.immersive
-kotlinx.coroutines.channels.defaultBu...
 HALF_OPENED
+kotlinx.coroutines.channels.defaultBu...
 activity.windowManager.currentWindowM...
 $this$$receiver
 key
@@ -786,8 +842,8 @@ android.type.verbatim
 creditCardExpirationDate
 obscureText
 texture
-WORDS
 secondaryActivityName.packageName
+WORDS
 SELECTION_CLICK
 windowMetricsCalculator
 kotlin.Float
@@ -797,8 +853,8 @@ contextMenu
 handled
 SystemNavigator.pop
 resizeRight
-autofill
 TextInputAction.newline
+autofill
 TextCapitalization.none
 operation
 _prev
@@ -809,6 +865,7 @@ postalCode
 primaryColor
 rules
 personGivenName
+dev.flutter.pigeon.PathProviderApi.ge...
 pairs
 TextInput.setEditingState
 ON_START
@@ -819,6 +876,7 @@ ruleComponent
 Dispatchers.Default
 kotlinx.coroutines.io.parallelism
 NUMBER
+query
 LIST_EMPTY
 java.util.Collection
 componentName.packageName
@@ -830,12 +888,16 @@ NOT_IN_STACK
 TextInputAction.previous
 CLICK
 _next
+debugMode
 MULTILINE
 destination
 ON_DESTROY
-enableDeltaModel
+update
 rule
+enableDeltaModel
+closeDatabase
 flutter/mousecursor
+downloads
 textservices
 EMPTY
 text/plain
@@ -849,12 +911,13 @@ HAS_IMPLICIT_SCROLLING
 filters
 Dispatchers.Main.immediate
 onWindowLayoutChangeListenerRemoved
+dev.flutter.pigeon.PathProviderApi.ge...
 splitRules
 ON_CLOSE_HANDLER_INVOKED
-REMOVED_TASK
 java.lang.Object
-SystemChrome.setSystemUIChangeListener
+REMOVED_TASK
 splitInfo
+SystemChrome.setSystemUIChangeListener
 base
 TextInput.setPlatformViewClient
 extendedPostalCode
@@ -863,43 +926,52 @@ zoomOut
 none
 type
 actionLabel
+movies
 TextCapitalization.sentences
 IMMERSIVE_STICKY
 VERTICAL
 delimiter
 HapticFeedbackType.mediumImpact
+openDatabase
 NONE
+Sqflite
 primaryActivityStack.activities
 ACTION_ARGUMENT_MOVEMENT_GRANULARITY_INT
 DeviceOrientation.portraitUp
 method
 hints
 systemNavigationBarContrastEnforced
-keyup
 onWindowLayoutChangeListenerAdded
 java.util.Set
+keyup
+tekartik_sqflite.db
 ACTION_ARGUMENT_SELECTION_START_INT
 push
 _state
 SHOW_ON_SCREEN
+bad_param
 brieflyShowPassword
+notifications
 overridingDecorator
 newDeviceState
 kotlinx.coroutines.scheduler
 gender
 java.lang.Double
+columns
 AppLifecycleState.detached
 range
 resizeRow
 usesVirtualDisplay
 flutter/spellcheck
 IS_TOGGLED
+pictures
 feature
 NO_THREAD_ELEMENTS
 get
 tracker
-oneTimeCode
 dark
+oneTimeCode
+singleInstance
 FLAT
 getDisplayInfo
 copy
@@ -911,14 +983,16 @@ newLayout
 DARK
 COPY
 IS_READ_ONLY
-initializer
 token
-SystemChrome.setPreferredOrientations
+initializer
 filter
+SystemChrome.setPreferredOrientations
 help
 phoneNumberDevice
+podcasts
 flutter/deferredcomponent
 elements
+ALARMS
 java.lang.Comparable
 URI_MASKABLE
 ON_CREATE
@@ -931,11 +1005,11 @@ ON_RESUME
 float
 IS_BUTTON
 postalAddressExtended
-TextCapitalization.characters
 asyncTraceBegin
+TextCapitalization.characters
 java.lang.Enum
-enableIMEPersonalizedLearning
 familyName
+enableIMEPersonalizedLearning
 create
 TRANSFORM
 Flow.kt
@@ -950,8 +1024,8 @@ IS_HIDDEN
 io.flutter.InitialRoute
 controlState
 transition_animation_scale
-keyCode
 sequence
+keyCode
 Active
 postalAddress
 kotlin.collections.Iterable
@@ -972,6 +1046,7 @@ kotlinName
 LTR
 error
 kotlin.Byte
+operations
 array
 kotlin.collections.Set
 postfix
@@ -991,6 +1066,7 @@ intent
 int
 personName
 boolean
+arguments
 com.google.android.inputmethod.latin
 emit
 SCROLL_DOWN
@@ -1082,6 +1158,7 @@ Marking id:text:2131034184 used because it matches string pool constant text
 Marking id:text2:2131034185 used because it matches string pool constant text
 Marking attr:activityAction:2130771968 used because it matches string pool constant activity
 Marking attr:activityName:2130771969 used because it matches string pool constant activity
+Marking attr:queryPatterns:2130771989 used because it matches string pool constant query
 Marking id:line1:2131034160 used because it matches string pool constant line
 Marking id:line3:2131034161 used because it matches string pool constant line
 @attr/activityAction : reachable=true
@@ -1105,7 +1182,7 @@ Marking id:line3:2131034161 used because it matches string pool constant line
 @attr/nestedScrollViewStyle : reachable=false
 @attr/placeholderActivityName : reachable=false
 @attr/primaryActivityName : reachable=true
-@attr/queryPatterns : reachable=false
+@attr/queryPatterns : reachable=true
 @attr/secondaryActivityAction : reachable=true
 @attr/secondaryActivityName : reachable=true
 @attr/shortcutMatchRequired : reachable=true
@@ -1295,6 +1372,7 @@ The root reachable resources are:
  attr:activityAction:2130771968
  attr:activityName:2130771969
  attr:primaryActivityName:2130771988
+ attr:queryPatterns:2130771989
  attr:secondaryActivityAction:2130771990
  attr:secondaryActivityName:2130771991
  attr:shortcutMatchRequired:2130771992

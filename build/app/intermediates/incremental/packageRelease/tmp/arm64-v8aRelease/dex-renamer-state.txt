@@ -1,4 +1,4 @@
-#Fri Jun 30 15:28:09 WIB 2023
-base.0=/Applications/project/quranread/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Tue Jul 04 17:12:32 WIB 2023
+base.0=/Applications/project/QuranRead/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

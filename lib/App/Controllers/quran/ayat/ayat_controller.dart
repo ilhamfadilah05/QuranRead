@@ -28,13 +28,11 @@ class AyatController extends GetxController {
 
   void changeIndexImage(int index) {
     indexImage.value = index + 1;
-    int a = indexImage.value;
-    print("index ${a}");
+    print("index Image ${indexImage.value}");
   }
 
   void getDataAyat(List<AyatModel> value) {
     dataAyat = value;
-    print(dataAyat);
   }
 
   void addListBookmark(String type) {
@@ -43,8 +41,6 @@ class AyatController extends GetxController {
     } else {
       listBookmark.remove(indexImage.value);
     }
-
-    print("BOOKMARK = ${listBookmark.value}");
   }
 
   bottomSheetTranslate(BuildContext context, int page) {
@@ -61,8 +57,12 @@ class AyatController extends GetxController {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    textDefault(
-                        "Terjemahan", 18, Colors.black, FontWeight.bold),
+                    TextDef(
+                      message: "Terjemahan",
+                      size: 18,
+                      color: Colors.black,
+                      fw: FontWeight.bold,
+                    ),
                     InkWell(
                       onTap: () {
                         Navigator.of(context).pop();
@@ -93,8 +93,10 @@ class AyatController extends GetxController {
                         child: Row(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              textDefault("${data.ayah}.", 14, Colors.black,
-                                  FontWeight.bold),
+                              TextDef(
+                                  message: "${data.ayah}",
+                                  size: 14,
+                                  color: Colors.black),
                               SizedBox(
                                 width: 15,
                               ),
@@ -102,8 +104,12 @@ class AyatController extends GetxController {
                                   child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  textDefault("${data.translate}", 14,
-                                      Colors.black, FontWeight.normal)
+                                  TextDef(
+                                      message: "${data.translate}",
+                                      size: 14,
+                                      color: Colors.black)
+                                  // textDefault("${data.translate}", 14,
+                                  //     Colors.black, FontWeight.normal)
                                 ],
                               ))
                             ]),

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:quranread/App/Views/home/home_view.dart';
 import 'package:quranread/App/Views/quran/ayat/ayat_view.dart';
+import 'package:quranread/App/Views/quran/surah/surah_view.dart';
+import 'package:sizer/sizer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +13,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: AyatView(),
+    return Sizer(
+      builder: (context, orientation, deviceType) {
+        return const MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: "Qur'an Read",
+          home: HomeView(),
+        );
+      },
     );
   }
 }

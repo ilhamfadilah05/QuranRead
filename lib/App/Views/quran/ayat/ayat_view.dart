@@ -1,15 +1,17 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, unnecessary_brace_in_string_interps, avoid_print
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, unnecessary_brace_in_string_interps, avoid_print, must_be_immutable, prefer_typing_uninitialized_variables
 
-import 'package:flutter/gestures.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/instance_manager.dart';
 import 'package:quranread/App/Components/widget.dart';
 import 'package:quranread/App/Controllers/quran/ayat/ayat_controller.dart';
 import 'package:quranread/App/Services/quran/ayat/ayat_service.dart';
+import 'package:sizer/sizer.dart';
 
 class AyatView extends StatefulWidget {
-  const AyatView({super.key});
+  AyatView({super.key, this.page, this.nameSurah});
+  String? page;
+  String? nameSurah;
 
   @override
   State<AyatView> createState() => _AyatViewState();
@@ -20,6 +22,10 @@ class _AyatViewState extends State<AyatView> {
   @override
   void initState() {
     conn.addImageList();
+    if (widget.page != null) {
+      conn.controller =
+          PageController(initialPage: int.parse(widget.page!) - 1);
+    }
     getAyat().then((value) {
       conn.getDataAyat(value);
     });
@@ -38,11 +44,24 @@ class _AyatViewState extends State<AyatView> {
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Icon(
-                Icons.arrow_back_ios_new,
-                color: Colors.black,
+              Row(
+                children: [
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: Icon(
+                      Icons.arrow_back_ios_new,
+                      color: Colors.black,
+                    ),
+                  ),
+                  SizedBox(
+                    width: 5.w,
+                  ),
+                  // textDefault(
+                  //     "Qur'an Read", 14.sp, Colors.black, FontWeight.normal),
+                ],
               ),
-              textDefault("Qur'an Read", 18, Colors.black, FontWeight.normal),
               Row(
                 children: [
                   InkWell(
@@ -64,7 +83,7 @@ class _AyatViewState extends State<AyatView> {
                           },
                           child: Icon(
                             Icons.bookmark,
-                            size: 30,
+                            size: 30.sp,
                             color: Colors.amber,
                           ),
                         )
@@ -74,7 +93,7 @@ class _AyatViewState extends State<AyatView> {
                           },
                           child: Icon(
                             Icons.bookmark_outline,
-                            size: 30,
+                            size: 30.sp,
                             color: Colors.black,
                           ),
                         )
@@ -92,8 +111,21 @@ class _AyatViewState extends State<AyatView> {
           itemCount: conn.imageList.length,
           itemBuilder: (context, index) {
             var data = conn.imageList[index];
-            return Image.network(
-              "$data",
+
+            // var data;
+            // if (widget.page == null) {
+            //   data = conn.imageList[index];
+            // } else {
+            //   data = conn.imageList[index + int.parse(widget.page!) - 1];
+            // }
+            return CachedNetworkImage(
+              imageUrl: "$data",
+              errorWidget: (context, url, error) {
+                return TextDef(
+                    message: "ERROR", size: 14.sp, color: Colors.black);
+                // textDefault(
+                //     "ERROR", 14.sp, Colors.black, FontWeight.normal);
+              },
             );
           },
         ),

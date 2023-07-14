@@ -4,7 +4,7 @@
             "outputFile": "com.example.quranread.app-mergeReleaseResources-5:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Applications/project/quranread/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Applications/project/QuranRead/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
