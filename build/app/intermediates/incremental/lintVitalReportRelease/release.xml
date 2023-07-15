@@ -4,10 +4,10 @@
     minSdkVersion="16"
     targetSdkVersion="33"
     shrinking="true"
-    mergedManifest="/Applications/project/quranread/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    manifestMergeReport="/Applications/project/quranread/build/app/outputs/logs/manifest-merger-release-report.txt"
-    proguardFiles="/Applications/project/quranread/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0:/Users/ilhamozip/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/Applications/project/quranread/build/app/intermediates/lint_vital_partial_results/release/out">
+    mergedManifest="/Applications/project/QuranRead/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    manifestMergeReport="/Applications/project/QuranRead/build/app/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/Applications/project/QuranRead/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0:/Users/ilhamozip/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Applications/project/QuranRead/build/app/intermediates/lint_vital_partial_results/release/out">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -32,9 +32,9 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="/Applications/project/quranread/build/app/intermediates/javac/release/classes:/Applications/project/quranread/build/app/tmp/kotlin-classes/release:/Applications/project/quranread/build/app/kotlinToolingMetadata:/Applications/project/quranread/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="/Applications/project/QuranRead/build/app/intermediates/javac/release/classes:/Applications/project/QuranRead/build/app/tmp/kotlin-classes/release:/Applications/project/QuranRead/build/app/kotlinToolingMetadata:/Applications/project/QuranRead/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.example.quranread"
-      generatedSourceFolders="/Applications/project/quranread/build/app/generated/source/buildConfig/release:/Applications/project/quranread/build/app/generated/aidl_source_output_dir/release/out:/Applications/project/quranread/build/app/generated/renderscript_source_output_dir/release/out:/Applications/project/quranread/build/app/generated/ap_generated_sources/release/out"
-      generatedResourceFolders="/Applications/project/quranread/build/app/generated/res/rs/release:/Applications/project/quranread/build/app/generated/res/resValues/release">
+      generatedSourceFolders="/Applications/project/QuranRead/build/app/generated/source/buildConfig/release:/Applications/project/QuranRead/build/app/generated/aidl_source_output_dir/release/out:/Applications/project/QuranRead/build/app/generated/renderscript_source_output_dir/release/out:/Applications/project/QuranRead/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Applications/project/QuranRead/build/app/generated/res/rs/release:/Applications/project/QuranRead/build/app/generated/res/resValues/release">
   </mainArtifact>
 </variant>

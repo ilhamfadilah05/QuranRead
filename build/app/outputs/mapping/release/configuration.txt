@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is /Applications/project/quranread/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0
+# The proguard configuration file for the following section is /Applications/project/QuranRead/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -116,7 +116,7 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from /Applications/project/quranread/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0
+# End of content from /Applications/project/QuranRead/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0
 # The proguard configuration file for the following section is /Users/ilhamozip/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro
 # Build the ephemeral app in a module project.
 # Prevents: Warning: library class <plugin-package> depends on program class io.flutter.plugin.**
@@ -127,12 +127,12 @@
 -dontwarn android.**
 
 # End of content from /Users/ilhamozip/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro
-# The proguard configuration file for the following section is /Applications/project/quranread/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# The proguard configuration file for the following section is /Applications/project/QuranRead/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
 -keep class android.app.Application { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class com.example.quranread.MainActivity { <init>(); }
 
-# End of content from /Applications/project/quranread/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# End of content from /Applications/project/QuranRead/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
 # The proguard configuration file for the following section is /Users/ilhamozip/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
@@ -290,7 +290,7 @@
 }
 
 # End of content from /Users/ilhamozip/.gradle/caches/transforms-3/282676124ae0776b5645a1cee909808d/transformed/lifecycle-viewmodel-2.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/ilhamozip/.gradle/caches/transforms-3/d2a48e23565bc077bb85a63c93c7c366/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
+# The proguard configuration file for the following section is /Users/ilhamozip/.gradle/caches/transforms-3/c24a18e07cc6b9710be59b0539dbdc4f/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -310,7 +310,7 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from /Users/ilhamozip/.gradle/caches/transforms-3/d2a48e23565bc077bb85a63c93c7c366/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
+# End of content from /Users/ilhamozip/.gradle/caches/transforms-3/c24a18e07cc6b9710be59b0539dbdc4f/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
 # The proguard configuration file for the following section is /Users/ilhamozip/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #

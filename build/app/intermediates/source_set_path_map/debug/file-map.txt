@@ -1,0 +1,13 @@
+com.example.quranread.app-debug-0 /Applications/project/QuranRead/android/app/src/debug/res
+com.example.quranread.app-main-1 /Applications/project/QuranRead/android/app/src/main/res
+com.example.quranread.app-pngs-2 /Applications/project/QuranRead/build/app/generated/res/pngs/debug
+com.example.quranread.app-resValues-3 /Applications/project/QuranRead/build/app/generated/res/resValues/debug
+com.example.quranread.app-rs-4 /Applications/project/QuranRead/build/app/generated/res/rs/debug
+com.example.quranread.app-mergeDebugResources-5 /Applications/project/QuranRead/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.quranread.app-mergeDebugResources-6 /Applications/project/QuranRead/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.quranread.app-merged_res-7 /Applications/project/QuranRead/build/app/intermediates/merged_res/debug
+com.example.quranread.app-packaged_res-8 /Applications/project/QuranRead/build/shared_preferences_android/intermediates/packaged_res/debug
+com.example.quranread.app-jetified-window-java-1.0.0-beta04-9 /Users/ilhamozip/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.quranread.app-core-1.6.0-10 /Users/ilhamozip/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/res
+com.example.quranread.app-jetified-annotation-experimental-1.1.0-11 /Users/ilhamozip/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.quranread.app-jetified-window-1.0.0-beta04-12 /Users/ilhamozip/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
